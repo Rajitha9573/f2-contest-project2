@@ -1,0 +1,52 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+nav{
+    padding :15px;
+    color:white;
+    background-color: black;
+    font-size: 20px;;
+}
+#search,#searchButtons{
+    display: flex;
+    margin:20px;
+    gap:15px;
+    
+}
+#searchButtons{
+    gap:30px;
+}
+
+#input{
+    padding: 13px;
+    width:85%;
+    color:black;
+    border:2px solid black;
+}
+#btn,#buttons{
+    padding:13px;
+    background-color: black;
+    color: white;
+    width:15%;
+    font-size: 20px;
+}
+#tableOne{
+    border-collapse: collapse;
+    margin:20px;
+    margin-right: 20px;
+    width:97%;
+}
+
+#tableOne,tr,td,th{
+    border:1px solid black;
+   
+}
+td,th{
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    /* vertical-align: center; */
+
+}
+
